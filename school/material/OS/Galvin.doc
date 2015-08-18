@@ -1,0 +1,84 @@
+<html><body><b><div align='center'><u>CURRICULUM VITAE</u><br></b> <b>jaydip kansara   <br> (M) 9998776195<br><u>jaydip@gmail.com</u></b></div><br><br><br><b><u>Career Objective:</u></b><br><br>I want to build my career with leading corporate of hi-tech atmosphere with and dedicated people, which will help me to realize my potential. I am willingness to work in a creative and challenging atmosphere.<br><br><b><u>Academic Performance:</u></b><br><br><table border='1'><tr><th>Degree/Certificate</th><th>University/Board</th><th>CPI/Percentage</th></tr><tr> <tr><td> B.E1<br></td><td>Gujarat Technological University - Vishwakarma Govt. Engg. College,Gandhinagar </td><td>10</td><tr><td>HSC - 12</td><td>GHSEB</td><td>84</td><tr><td>SSC - 10</td><td>GHSEB</td><td>84</td></table><br><b>Personal Inforamation :</b><br><br> &nbsp;&nbsp;&nbsp;&nbsp; Full Name :jaydip kansara   <br><br> &nbsp;&nbsp;&nbsp;&nbsp;Date OF Birth :25/5/1992<br><br> &nbsp;&nbsp;&nbsp;&nbsp;Gender :1         <br><br> &nbsp;&nbsp;&nbsp;&nbsp;Nationality :indian<br> <br> &nbsp;&nbsp;&nbsp;&nbsp;Languages Known :guj<br><br> &nbsp;&nbsp;&nbsp;&nbsp;Hobbies :cricket<br><br><b> Technical Skills :</b><br><br> &nbsp;&nbsp;&nbsp;&nbsp;Languages Known :asda<br><br> &nbsp;&nbsp;&nbsp;&nbsp;Web Technologies :asd<br><br>&nbsp;&nbsp;&nbsp;&nbsp; Database :khk<br><br><br>Declartation <br><br>&nbsp;&nbsp;&nbsp;&nbsp;I hereby declare that the above-mentioned information is true to the best of my knowledge.<br><div algin='center'>jaydip kansara   <br></div></body></html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+
+</title><link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/arial.js"></script>
+<script type="text/javascript" src="js/cuf_run.js"></script>
+    
+</head>
+<body>
+<div class="main">
+  <div class="main_resize">
+    <div class="header">
+      <div class="logo">
+        <h1><a href="#"><span>Campus</span>Corner<small>Explore And Succeed</small></a></h1>
+      </div>
+       <div class="log_nav">
+		  <ul><li>    
+        <a href="logout.aspx">Logout</a></li></ul>
+        <div class="clr"></div>
+      </div>
+        
+        <div class="clr"></div>
+      
+      <div class="clr"></div>
+      <div class="menu_nav">
+        <ul>
+          
+         
+          <li class="active"><a href="wall.aspx">Home</a></li>
+         
+          <li><a href="material.aspx" data-toggle="dropdown">Material / Tutorial</a>
+          </li>
+        
+          <li><a href="">Book</a>
+          </li>
+          <li><a href="cv.aspx">Create C.V</a></li>
+        </ul>
+        
+    </div>
+    </div>
+         
+        
+        <div class="clr"></div>
+     
+     </div>
+ 
+
+
+
+    <form method="post" action="cv.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUIODQzMDc2NjAPZBYCZg9kFgICAw9kFgICAQ9kFgICAQ88KwARAgAPFgQeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnQCAWQMFCsAExYIHgROYW1lBQpmaXJzdF9uYW1lHgpJc1JlYWRPbmx5aB4EVHlwZRkrAh4JRGF0YUZpZWxkBQpmaXJzdF9uYW1lFggfAgUJbGFzdF9uYW1lHwNoHwQZKwIfBQUJbGFzdF9uYW1lFggfAgUMbW9iaWxlbnVtYmVyHwNoHwQZKwIfBQUMbW9iaWxlbnVtYmVyFggfAgUFZW1haWwfA2gfBBkrAh8FBQVlbWFpbBYIHwIFBGRlcHQfA2gfBBkrAh8FBQRkZXB0FggfAgUDY3BpHwNoHwQZKVpTeXN0ZW0uRG91YmxlLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkfBQUDY3BpFggfAgUMdHdlbHRoX2JvYXJkHwNoHwQZKwIfBQUMdHdlbHRoX2JvYXJkFggfAgUKdHdlbHRoX3Blch8DaB8EGSsEHwUFCnR3ZWx0aF9wZXIWCB8CBQt0ZW50aF9ib2FyZB8DaB8EGSsCHwUFC3RlbnRoX2JvYXJkFggfAgUJdGVudGhfcGVyHwNoHwQZKwQfBQUJdGVudGhfcGVyFggfAgUJYmlydGhkYXRlHwNoHwQZKwIfBQUJYmlydGhkYXRlFggfAgUGZ2VuZGVyHwNoHwQZKwIfBQUGZ2VuZGVyFggfAgUNbWFyaXRhbHN0YXR1cx8DaB8EGSsCHwUFDW1hcml0YWxzdGF0dXMWCB8CBQtuYXRpb25hbGl0eR8DaB8EGSsCHwUFC25hdGlvbmFsaXR5FggfAgUObGFuZ3VhZ2Vza25vd24fA2gfBBkrAh8FBQ5sYW5ndWFnZXNrbm93bhYIHwIFB2hvYmJpZXMfA2gfBBkrAh8FBQdob2JiaWVzFggfAgUEbGFuZx8DaB8EGSsCHwUFBGxhbmcWCB8CBQl3ZWJfc2tpbGwfA2gfBBkrAh8FBQl3ZWJfc2tpbGwWCB8CBQ5kYXRhYmFzZV9rbm93bh8DaB8EGSsCHwUFDmRhdGFiYXNlX2tub3duFgJmD2QWBAIBD2QWJmYPDxYCHgRUZXh0BQZqYXlkaXBkZAIBDw8WAh8GBQprYW5zYXJhICAgZGQCAg8PFgIfBgUKOTk5ODc3NjE5NWRkAgMPDxYCHwYFEGpheWRpcEBnbWFpbC5jb21kZAIEDw8WAh8GBQExZGQCBQ8PFgIfBgUCMTBkZAIGDw8WAh8GBQVHSFNFQmRkAgcPDxYCHwYFAjg0ZGQCCA8PFgIfBgUFR0hTRUJkZAIJDw8WAh8GBQI4NGRkAgoPDxYCHwYFCTI1LzUvMTk5MmRkAgsPDxYCHwYFCjEgICAgICAgICBkZAIMDw8WAh8GBQoyICAgICAgICAgZGQCDQ8PFgIfBgUGaW5kaWFuZGQCDg8PFgIfBgUDZ3VqZGQCDw8PFgIfBgUHY3JpY2tldGRkAhAPDxYCHwYFBGFzZGFkZAIRDw8WAh8GBQNhc2RkZAISDw8WAh8GBQNraGtkZAICDw8WAh4HVmlzaWJsZWhkZBgBBSNjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJEdyaWRWaWV3MQ88KwAMAQgCAWT7x3m0VLcen4rlLb/aCdybPscETw/TASMSqR94mfqPbQ==" />
+</div>
+
+    <div>
+        
+    <div>
+	<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridView1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">first_name</th><th scope="col">last_name</th><th scope="col">mobilenumber</th><th scope="col">email</th><th scope="col">dept</th><th scope="col">cpi</th><th scope="col">twelth_board</th><th scope="col">twelth_per</th><th scope="col">tenth_board</th><th scope="col">tenth_per</th><th scope="col">birthdate</th><th scope="col">gender</th><th scope="col">maritalstatus</th><th scope="col">nationality</th><th scope="col">languagesknown</th><th scope="col">hobbies</th><th scope="col">lang</th><th scope="col">web_skill</th><th scope="col">database_known</th>
+		</tr><tr>
+			<td>jaydip</td><td>kansara   </td><td>9998776195</td><td>jaydip@gmail.com</td><td>1</td><td>10</td><td>GHSEB</td><td>84</td><td>GHSEB</td><td>84</td><td>25/5/1992</td><td>1         </td><td>2         </td><td>indian</td><td>guj</td><td>cricket</td><td>asda</td><td>asd</td><td>khk</td>
+		</tr>
+	</table>
+</div>
+
+    </div>
+    </form>
+    <div class="footer">
+  <div class="footer_resize">
+    <p class="lf">&copy; Copyright <a href="#">Campus Corner</a>.</p>
+    
+    <div class="clr"></div>
+  </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+  
+                                             
+/connection
+SqlConnection con = new SqlConnection("Data Source=.\\SQLEXPRESS;AttachDbFilename=|DataDirectory|\\harofaro_db.mdf;Integrated Security=True;User Instance=True");
+
+//select
+con.Open();
+        string str3 = "select * from EmployeeData_Table where Emp_Code='" + txtbox_empcode1.Text + "'";
+        SqlCommand scmd3 = new SqlCommand(str3, con);
+        SqlDataReader sdr3 = scmd3.ExecuteReader();
+        if (sdr3.Read())
+        {
+            string a= Convert.ToString(sdr3.GetValue(1));
+        }
+        con.Close();
+
+
+//select max
+con.Open();
+string str="select Cat_Id from Category_Table";
+            DataSet dset = new DataSet();
+            SqlDataAdapter sda = new SqlDataAdapter(str, con);
+            sda.Fill(dset);
+            if (dset.Tables[0].Rows.Count > 0)
+            {
+                string str = "Select MAX(Cat_Id) from Category_Table";
+                SqlCommand scmd = new SqlCommand(str, con);
+                SqlDataReader sdr = scmd.ExecuteReader();
+                while (sdr.Read())
+                {
+                    int temp = Convert.ToInt32(sdr.GetValue(0)) + 1;
+                    txtbox_catid.Text = Convert.ToString(temp);
+                }
+                sdr.Close();
+            }
+
+
+//insert
+ con.Open();
+                SqlCommand cmd = new SqlCommand();
+                string str = "insert into Category_Table(Cat_Id,Cat_Type,Status)values('" + txtbox_catid.Text + "','" + txtbox_catname.Text + "',1)";
+                cmd.CommandText = str;
+                cmd.CommandType = CommandType.Text;
+                cmd.Connection = con;
+                cmd.ExecuteNonQuery();
+                con.Close();
+
+
+//update
+con.Open();
+            string @title = txt1.Text;
+            string @description = txt2.Text;
+            SqlCommand cmd = new SqlCommand("update Article_Table set Title=@title,Description=@description,Date_Updated='" + System.DateTime.Now + "',Admin_Updated='" + Session["Emp_Code"] + "'where Article_Id='" + lbl.Text + "'", con);
+            cmd.Parameters.Add("@title", txt1.Text);
+            cmd.Parameters.Add("@description", txt2.Text);
+            cmd.ExecuteNonQuery();
+            con.Close();
